@@ -1,7 +1,6 @@
 #!/bin/bash
 repository_name=$1
 commits_number=$2
-commits_max_per_day=3
 commit_message="Yet another commit"
 
 cd $repository_name
@@ -11,7 +10,7 @@ while [ $day_counter -le $commits_number ]
 do
     delta="-"$day_counter"d"
     date=$(date -v $delta)
-    num=$(( RANDOM % $commits_max_per_day+1 ))
+    num=$(( RANDOM % 4 ))
     for ((n=0;n<num;n++)); do 
         echo "$date:$commit_message" >> history.txt
         git add . -A
