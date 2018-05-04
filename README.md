@@ -1,6 +1,10 @@
 # GitHub Heatmap
 This projects creates a new Git repository with commits from the past and pushes it to your GitHub. This will make your commit heatmap shine.
 
+<p align="center">
+  <img  src="./images/heatmap-filled.png">
+</p>
+
 ## Getting started
 **Create a new, empty GitHub repository and copy the remote url.**
 ```
