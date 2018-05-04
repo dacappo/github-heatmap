@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 repository_name=$1
 commits_number=$2
 commit_message="Yet another commit"

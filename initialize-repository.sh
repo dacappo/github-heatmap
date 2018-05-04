@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 repository_name=$1
 
 rm -rf $repository_name
